@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton(' 🖥️ GZ PROJECTS📱 ', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ GZ PROJECTS📱', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
